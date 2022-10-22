@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en, pl">
+    <head>
+        <title>Just a Page with Buttons</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A simple page for JS solutions testing.">
+        <meta name="author" content="JuliLios">
+    </head>
+    <body>
+        <h1>22 października 2022</h1>
+        <h2>Ekwipunek harcerza</h2>
+        <div>
+        <button type="button" id="story" onclick="solution()">
+            Sprawdź, co znajduje się w plecaku
+        </button>
+        </div>
+        <div id="ekwipunek"></div>
+
+        <form>
+            <p>
+                <label for="kwota">Kwota:</label>
+                <input id="kwota" type="number">
+            </p>
+            <p>
+                <label for="przedmiot">Przedmiot:</label>
+                <input id="przedmiot" type="text"><br>
+            </p>              
+        <input type="button" onclick="kupno1()" value="Co jeszcze chce kupić?">
+        <input type="button" onclick="kupno2()" value="Sprawdź środki">
+        </form>
+        <div id="output"> </div>
+        <div id="output2"> </div>
+        
+      
+       
+
+        <script src="scripts.js"></script>
+      </body>
+      </html>
+</html>
